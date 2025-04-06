@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceTrue.Identity.Domain", "NiceTrue.Identity.Domain\NiceTrue.Identity.Domain.csproj", "{81E40726-641D-4A5E-9673-84C9A27BA78F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceTrue.Identity.Infrastructure", "NiceTrue.Identity.Infrastructure\NiceTrue.Identity.Infrastructure.csproj", "{FAA8F4AA-DC48-41C6-9CA3-491088B8D376}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{81E40726-641D-4A5E-9673-84C9A27BA78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E40726-641D-4A5E-9673-84C9A27BA78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E40726-641D-4A5E-9673-84C9A27BA78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA8F4AA-DC48-41C6-9CA3-491088B8D376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA8F4AA-DC48-41C6-9CA3-491088B8D376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA8F4AA-DC48-41C6-9CA3-491088B8D376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA8F4AA-DC48-41C6-9CA3-491088B8D376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,17 +2,16 @@ namespace NiceTrue.Identity.Domain;
 
 public class Role
 {
-    private Role(string name, string description)
+    private Role(string name)
     {
         Name = name;
-        Description = description;
     }
 
     public int Id { get; private set; }
     public string Name { get; private set; }
-    public string Description { get; private set; }
+    public Permission Permissions { get; set; }
+    public int CompanyId { get; set; }
 
-
-    public static Role Create(string name, string description)
-        => new Role(name, description);
+    public static Role Create(string name)
+        => new Role(name);
 }

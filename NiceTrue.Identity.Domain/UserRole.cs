@@ -17,3 +17,20 @@ public class UserRole
     internal static UserRole Create(int userId, int roleId)
         => new UserRole(userId, roleId);
 }
+
+// key (UserId)
+
+/*
+ *  UserId | RoleId
+ *  RoleId | UserId
+ * 1      |.  1
+ * 2      |.  1
+ * 1      |.  2
+ * 
+ * 
+ */
+ 
+ /* 1 1
+  * 2 1
+  * 
+  */
