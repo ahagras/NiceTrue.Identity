@@ -1,4 +1,4 @@
-namespace NiceTrue.Identity.Domain;
+namespace NiceTrue.Identity.Domain.Enums;
 
 [Flags]
 public enum Permission

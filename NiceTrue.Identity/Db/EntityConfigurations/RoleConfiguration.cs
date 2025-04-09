@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NiceTrue.Identity.Domain;
+using NiceTrue.Identity.Domain.Entities;
 
-namespace NiceTrue.Identity.Infrastructure.EntityConfigurations;
+namespace NiceTrue.Identity.Db.EntityConfigurations;
 
 public class RoleConfiguration : IEntityTypeConfiguration<Role>
 {

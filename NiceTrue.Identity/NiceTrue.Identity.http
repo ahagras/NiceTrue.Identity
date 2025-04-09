@@ -1,0 +1,6 @@
+@NiceTrue.Identity_HostAddress = http://localhost:5157
+
+GET {{NiceTrue.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

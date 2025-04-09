@@ -1,4 +1,6 @@
-namespace NiceTrue.Identity.Domain;
+using NiceTrue.Identity.Domain.Enums;
+
+namespace NiceTrue.Identity.Domain.Entities;
 
 public class User
 {
@@ -7,7 +9,7 @@ public class User
         Name = name;
         Email = email;
         Password = password;
-        Status = EntityStatus.Pending;
+        Status = UserStatus.Pending;
         CreatAt = DateTimeOffset.UtcNow;
     }
 
@@ -15,7 +17,7 @@ public class User
     public string Name { get; private set; }
     public string Email { get; private set; }
     public string Password { get; private set; }
-    public EntityStatus Status { get; private set; }
+    public UserStatus Status { get; private set; }
     public IReadOnlyCollection<UserRole> UserRoles => _userRoles;
 
     private readonly List<UserRole> _userRoles = [];
